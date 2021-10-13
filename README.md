@@ -6,7 +6,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -23,7 +22,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://muneebaa.github.io/Stats-Preview-Card-Component/)
 
 ## My process
 
