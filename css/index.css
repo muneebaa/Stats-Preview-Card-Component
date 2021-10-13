@@ -1,0 +1,126 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(233, 47%, 7%) ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.attribution{
+    margin-top: 20px;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.card-img{
+     object-fit: cover;
+    /* filter:brightness(33%) sepia(49) saturate(19) hue-rotate(260deg); --------- to make picture purple*/
+    filter: grayscale(50%);
+
+}
+
+.card{
+    background-color:hsl(244, 38%, 16%);
+    width: 75%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-content{
+    padding: 2em;
+}
+
+.card-title,
+.card-body,
+.card-details p{
+    font-family:"Inter",sans-serif ;
+}
+
+.card-title{
+    margin: 0;
+    color: hsl(0, 0%, 100%) ;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.card-title span{
+    color: hsl(277, 64%, 61%) ;
+}
+
+.card-body{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    text-align: center;
+}
+
+.card-details{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card-details p{
+    color:hsl(0, 0%, 100%);
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 2;
+    font-family:"Inter",sans-serif ;
+    margin-bottom: 0;
+}
+
+.card-details p span{
+    display: block;
+    color:hsla(0, 0%, 100%, 0.6) ;
+    text-transform: uppercase;
+    font-size: 11px;
+     font-family:"Lexend Deca",sans-serif ;
+}
+
+@media (min-width:550px) {
+    .card{
+         flex-direction: row;
+         width: 100%;
+    }
+
+    .card-img{
+        width: 50%;
+        order: 1;
+    }
+
+    .card-title{
+        font-size: 1.5rem;
+        text-align:left;
+    }
+
+    .card-body{
+        text-align:left;
+
+    }
+
+    .card-content{
+        order: 0;
+    }
+
+    .card-details{
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+
+    }
