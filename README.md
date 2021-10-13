@@ -11,8 +11,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -23,16 +21,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-
-### Screenshot
-
-desktop preview
-
-![](./images/screen-shot-desktop.png)
-
-mobile preview
-
-![](./images/screen-shot-mobile.png)
 
 ### Links
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
@@ -48,4 +36,4 @@ mobile preview
 
 ### Useful resources
 
-- [Example resource 1](https://stackoverflow.com/questions/29280817/is-there-any-way-to-colorize-a-white-png-image-with-css-only) - This helped me to change color of my image from grey to purple
+- [Stack Over Flow](https://stackoverflow.com/questions/29280817/is-there-any-way-to-colorize-a-white-png-image-with-css-only) - This helped me to change color of my image from grey to purple
